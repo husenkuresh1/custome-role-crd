@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- custom-rbac_v1_customrole.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

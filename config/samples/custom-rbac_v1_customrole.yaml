@@ -1,0 +1,9 @@
+apiVersion: custom-rbac.improwised.com/v1
+kind: CustomRole
+metadata:
+  labels:
+    app.kubernetes.io/name: custome-role-crd
+    app.kubernetes.io/managed-by: kustomize
+  name: customrole-sample
+spec:
+  # TODO(user): Add fields here
